@@ -1,0 +1,38 @@
+{
+    "camera": {
+        "device_id": 0,
+        "resolution": [
+            1280,
+            720
+        ],
+        "fps": 30
+    },
+    "ui": {
+        "fullscreen": true,
+        "theme": "default",
+        "timeout_seconds": 60
+    },
+    "photos": {
+        "save_directory": "photos",
+        "file_format": "jpg",
+        "quality": 95
+    },
+    "printing": {
+        "enabled": true,
+        "printer_name": "Default",
+        "paper_size": "4x6"
+    },
+    "payment": {
+        "enabled": true,
+        "price": 5.0,
+        "currency": "USD",
+        "methods": ["dummy", "coin", "card"],
+        "layout_prices": {
+            "single": 3.0,
+            "strip": 5.0,
+            "grid": 7.0,
+            "collage": 8.0
+        }
+    },
+    "language": "en_US"
+}
